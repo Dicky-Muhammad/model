@@ -1,0 +1,142 @@
+{
+  "asset": {
+    "generator": "UnityGLTF",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        11
+      ],
+      "name": "SampleScene"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "SampleScene.bin",
+      "byteLength": 0
+    }
+  ],
+  "cameras": [
+    {
+      "perspective": {
+        "aspectRatio": 0.87837839126586914,
+        "yfov": 1.0471975803375244,
+        "zfar": 19.999910354614258,
+        "znear": 0.10000000149011612
+      },
+      "type": "perspective",
+      "name": "AR Camera"
+    }
+  ],
+  "nodes": [
+    {
+      "rotation": [
+        0.109381631,
+        0.8754261,
+        0.408217877,
+        -0.234569684
+      ],
+      "translation": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "name": "Directional Light",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      }
+    },
+    {
+      "name": "AR Session"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "AR Session Origin"
+    },
+    {
+      "camera": 0,
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "name": "AR Camera"
+    },
+    {
+      "name": "XR Interaction Manager"
+    },
+    {
+      "name": "AR Placement Interactable"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "LineManager"
+    },
+    {
+      "name": "ParseInitializeBehaviour"
+    },
+    {
+      "children": [
+        9
+      ],
+      "translation": [
+        -130.0,
+        148.0,
+        0.0
+      ],
+      "name": "Canvas"
+    },
+    {
+      "children": [
+        10
+      ],
+      "translation": [
+        50.0,
+        -133.0,
+        0.0
+      ],
+      "name": "Button"
+    },
+    {
+      "name": "Text (TMP)"
+    },
+    {
+      "name": "EventSystem"
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "type": "directional",
+          "intensity": 3.14159274,
+          "name": "Directional Light",
+          "color": [
+            1.0,
+            0.956862748,
+            0.8392157
+          ]
+        }
+      ]
+    }
+  }
+}
